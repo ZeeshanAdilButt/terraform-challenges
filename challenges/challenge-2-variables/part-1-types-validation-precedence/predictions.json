@@ -1,0 +1,10 @@
+{
+  "note": "For each duel write the label of the source that wins: env, tfvars, tfvars-json, auto-a, auto-b, var-file or var. Decide BEFORE you run run.mjs. The docs page 'Terraform language: input variables' lists the order.",
+  "duel1_env_vs_tfvars": "",
+  "duel2_tfvars_vs_tfvars_json": "",
+  "duel3_tfvars_vs_auto": "",
+  "duel4_auto_a_vs_auto_b": "",
+  "duel5_auto_vs_var_file": "",
+  "duel6_var_file_then_var": "",
+  "duel7_var_then_var_file": ""
+}

@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 166" width="640" height="166" role="img" aria-labelledby="t d" font-family="system-ui, sans-serif" fill="currentColor">
+  <title id="t">Objects the plan would destroy while adopting two containers</title>
+  <desc id="d">naive configuration: 2 destroyed. generated draft: 2 destroyed. your cleaned files: 0 destroyed</desc>
+  <text x="0" y="24" font-size="17" font-weight="600">Objects the plan would destroy while adopting two containers</text>
+  <text x="164" y="65" text-anchor="end" font-size="14">naive configuration</text>
+  <rect x="180" y="51" width="354" height="20" rx="3" fill="currentColor" fill-opacity="0.08"/>
+  <rect x="180" y="51" width="354.0" height="20" rx="3" fill="currentColor" fill-opacity="0.7"/>
+  <text x="544" y="66" font-size="14">2 destroyed</text>
+  <text x="164" y="99" text-anchor="end" font-size="14">generated draft</text>
+  <rect x="180" y="85" width="354" height="20" rx="3" fill="currentColor" fill-opacity="0.08"/>
+  <rect x="180" y="85" width="354.0" height="20" rx="3" fill="currentColor" fill-opacity="0.7"/>
+  <text x="544" y="100" font-size="14">2 destroyed</text>
+  <text x="164" y="133" text-anchor="end" font-size="14">your cleaned files</text>
+  <rect x="180" y="119" width="354" height="20" rx="3" fill="currentColor" fill-opacity="0.08"/>
+  <rect x="180" y="119" width="0.0" height="20" rx="3" fill="currentColor" fill-opacity="0.7"/>
+  <text x="544" y="134" font-size="14">0 destroyed</text>
+</svg>

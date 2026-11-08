@@ -1,0 +1,6 @@
+{
+  "note": "Fill in the nulls and the empty lists BEFORE you run run.mjs. add, change and destroy are the three numbers on the Plan line. touches lists the resource addresses that appear in the plan, for example [\"docker_image.alpine\"].",
+  "edit1_container_restart": { "add": null, "change": null, "destroy": null, "touches": [] },
+  "edit2_greeting_text": { "add": null, "change": null, "destroy": null, "touches": [] },
+  "edit3_pet_length": { "add": null, "change": null, "destroy": null, "touches": [] }
+}

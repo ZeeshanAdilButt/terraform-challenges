@@ -1,0 +1,6 @@
+# One terraform state command per line, without the word terraform. Lines that start with # are ignored.
+# Allowed: state list, state show, state mv, state rm, state pull.
+# Example of the form:   state mv aws_thing.old aws_thing.new
+#
+# Goal: after your commands, `terraform plan` says "No changes", and out/legacy.txt is still on disk.
+# Hint: `state list` shows the addresses in the state right now.

@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 132" width="640" height="132" role="img" aria-labelledby="t d" font-family="system-ui, sans-serif" fill="currentColor">
+  <title id="t">Edges in the dependency graph (A needs B)</title>
+  <desc id="d">original, migrate without depends_on: 1 edges. yours, with depends_on: 2 edges</desc>
+  <text x="0" y="24" font-size="17" font-weight="600">Edges in the dependency graph (A needs B)</text>
+  <text x="240" y="65" text-anchor="end" font-size="14">original, migrate without depends_on</text>
+  <rect x="256" y="51" width="278" height="20" rx="3" fill="currentColor" fill-opacity="0.08"/>
+  <rect x="256" y="51" width="139.0" height="20" rx="3" fill="currentColor" fill-opacity="0.7"/>
+  <text x="544" y="66" font-size="14">1 edges</text>
+  <text x="240" y="99" text-anchor="end" font-size="14">yours, with depends_on</text>
+  <rect x="256" y="85" width="278" height="20" rx="3" fill="currentColor" fill-opacity="0.08"/>
+  <rect x="256" y="85" width="278.0" height="20" rx="3" fill="currentColor" fill-opacity="0.7"/>
+  <text x="544" y="100" font-size="14">2 edges</text>
+</svg>

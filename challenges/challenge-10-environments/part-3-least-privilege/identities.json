@@ -1,0 +1,5 @@
+{
+  "dev-engineer": ["dev"],
+  "ci-dev": ["dev", "prod"],
+  "ci-prod": ["prod"]
+}

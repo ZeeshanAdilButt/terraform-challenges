@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 234" width="640" height="234" role="img" aria-labelledby="t d" font-family="system-ui, sans-serif" fill="currentColor">
+  <title id="t">Exit code of terraform plan -detailed-exitcode, by situation</title>
+  <desc id="d">nothing changed: 0. error (missing var file): 1. container renamed: 2. container stopped, -minimal-refresh: 0. container stopped, full refresh: 2</desc>
+  <text x="0" y="24" font-size="17" font-weight="600">Exit code of terraform plan -detailed-exitcode, by situation</text>
+  <text x="240" y="65" text-anchor="end" font-size="14">nothing changed</text>
+  <rect x="256" y="51" width="278" height="20" rx="3" fill="currentColor" fill-opacity="0.08"/>
+  <rect x="256" y="51" width="0.0" height="20" rx="3" fill="currentColor" fill-opacity="0.7"/>
+  <text x="544" y="66" font-size="14">0</text>
+  <text x="240" y="99" text-anchor="end" font-size="14">error (missing var file)</text>
+  <rect x="256" y="85" width="278" height="20" rx="3" fill="currentColor" fill-opacity="0.08"/>
+  <rect x="256" y="85" width="139.0" height="20" rx="3" fill="currentColor" fill-opacity="0.7"/>
+  <text x="544" y="100" font-size="14">1</text>
+  <text x="240" y="133" text-anchor="end" font-size="14">container renamed</text>
+  <rect x="256" y="119" width="278" height="20" rx="3" fill="currentColor" fill-opacity="0.08"/>
+  <rect x="256" y="119" width="278.0" height="20" rx="3" fill="currentColor" fill-opacity="0.7"/>
+  <text x="544" y="134" font-size="14">2</text>
+  <text x="240" y="167" text-anchor="end" font-size="14">container stopped, -minimal-refresh</text>
+  <rect x="256" y="153" width="278" height="20" rx="3" fill="currentColor" fill-opacity="0.08"/>
+  <rect x="256" y="153" width="0.0" height="20" rx="3" fill="currentColor" fill-opacity="0.7"/>
+  <text x="544" y="168" font-size="14">0</text>
+  <text x="240" y="201" text-anchor="end" font-size="14">container stopped, full refresh</text>
+  <rect x="256" y="187" width="278" height="20" rx="3" fill="currentColor" fill-opacity="0.08"/>
+  <rect x="256" y="187" width="278.0" height="20" rx="3" fill="currentColor" fill-opacity="0.7"/>
+  <text x="544" y="202" font-size="14">2</text>
+</svg>

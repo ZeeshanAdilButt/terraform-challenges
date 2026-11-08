@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 166" width="640" height="166" role="img" aria-labelledby="t d" font-family="system-ui, sans-serif" fill="currentColor">
+  <title id="t">Second pipeline run: no wait versus waiting for the lock</title>
+  <desc id="d">One apply, alone: 41.6 s. Second run, no wait: time to the error: 16.5 s. Second run, waits: time waiting for the lock: 31 s</desc>
+  <text x="0" y="24" font-size="17" font-weight="600">Second pipeline run: no wait versus waiting for the lock</text>
+  <text x="240" y="65" text-anchor="end" font-size="14">One apply, alone</text>
+  <rect x="256" y="51" width="278" height="20" rx="3" fill="currentColor" fill-opacity="0.08"/>
+  <rect x="256" y="51" width="278.0" height="20" rx="3" fill="currentColor" fill-opacity="0.7"/>
+  <text x="544" y="66" font-size="14">41.6 s</text>
+  <text x="240" y="99" text-anchor="end" font-size="14">Second run, no wait: time to the error</text>
+  <rect x="256" y="85" width="278" height="20" rx="3" fill="currentColor" fill-opacity="0.08"/>
+  <rect x="256" y="85" width="110.3" height="20" rx="3" fill="currentColor" fill-opacity="0.7"/>
+  <text x="544" y="100" font-size="14">16.5 s</text>
+  <text x="240" y="133" text-anchor="end" font-size="14">Second run, waits: time waiting for the lock</text>
+  <rect x="256" y="119" width="278" height="20" rx="3" fill="currentColor" fill-opacity="0.08"/>
+  <rect x="256" y="119" width="207.2" height="20" rx="3" fill="currentColor" fill-opacity="0.7"/>
+  <text x="544" y="134" font-size="14">31 s</text>
+</svg>

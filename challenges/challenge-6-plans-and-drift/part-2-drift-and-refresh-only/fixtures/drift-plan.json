@@ -1,0 +1,14 @@
+{
+  "resource_changes": [],
+  "resource_drift": [
+    {
+      "address": "docker_container.app",
+      "type": "docker_container",
+      "change": {
+        "actions": [
+          "update"
+        ]
+      }
+    }
+  ]
+}

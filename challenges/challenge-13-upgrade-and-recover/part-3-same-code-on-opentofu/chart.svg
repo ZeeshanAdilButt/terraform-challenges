@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 132" width="640" height="132" role="img" aria-labelledby="t d" font-family="system-ui, sans-serif" fill="currentColor">
+  <title id="t">Times &quot;random_pet&quot; can be read in the state file</title>
+  <desc id="d">plain state: 2 times. encrypted state: 0 times</desc>
+  <text x="0" y="24" font-size="17" font-weight="600">Times &quot;random_pet&quot; can be read in the state file</text>
+  <text x="132" y="65" text-anchor="end" font-size="14">plain state</text>
+  <rect x="148" y="51" width="386" height="20" rx="3" fill="currentColor" fill-opacity="0.08"/>
+  <rect x="148" y="51" width="386.0" height="20" rx="3" fill="currentColor" fill-opacity="0.7"/>
+  <text x="544" y="66" font-size="14">2 times</text>
+  <text x="132" y="99" text-anchor="end" font-size="14">encrypted state</text>
+  <rect x="148" y="85" width="386" height="20" rx="3" fill="currentColor" fill-opacity="0.08"/>
+  <rect x="148" y="85" width="0.0" height="20" rx="3" fill="currentColor" fill-opacity="0.7"/>
+  <text x="544" y="100" font-size="14">0 times</text>
+</svg>

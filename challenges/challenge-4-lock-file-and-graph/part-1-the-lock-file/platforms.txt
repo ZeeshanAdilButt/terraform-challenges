@@ -1,0 +1,4 @@
+# The machines that run this configuration, one per line, in the form <os>_<arch>.
+# The lock file must hold a checksum for each of them.
+# FIX 3: the team has Linux CI runners, Apple silicon Macs and Windows laptops.
+linux_amd64

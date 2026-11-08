@@ -1,0 +1,12 @@
+{
+  "_help": "For each place, write true if the fake secret appears there in plain text, false if not. Then run run.mjs: it looks in every place and compares.",
+  "terraform.tfstate": false,
+  "terraform.tfstate.backup": false,
+  "terraform show -json": false,
+  "terraform output (no flags)": false,
+  "terraform output -json": false,
+  "terraform plan (the text you read)": false,
+  "terraform show -json <planfile>": false,
+  "app.conf (the file Terraform wrote)": false,
+  "TF_LOG=TRACE output": false
+}

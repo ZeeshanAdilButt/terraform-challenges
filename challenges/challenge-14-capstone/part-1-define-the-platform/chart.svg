@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 166" width="640" height="166" role="img" aria-labelledby="t d" font-family="system-ui, sans-serif" fill="currentColor">
+  <title id="t">Terraform test runs in the reference platform, by kind of test</title>
+  <desc id="d">plan tests: 3 runs. failing validation: 5 runs. mock apply: 3 runs</desc>
+  <text x="0" y="24" font-size="17" font-weight="600">Terraform test runs in the reference platform, by kind of test</text>
+  <text x="156" y="65" text-anchor="end" font-size="14">plan tests</text>
+  <rect x="172" y="51" width="362" height="20" rx="3" fill="currentColor" fill-opacity="0.08"/>
+  <rect x="172" y="51" width="217.2" height="20" rx="3" fill="currentColor" fill-opacity="0.7"/>
+  <text x="544" y="66" font-size="14">3 runs</text>
+  <text x="156" y="99" text-anchor="end" font-size="14">failing validation</text>
+  <rect x="172" y="85" width="362" height="20" rx="3" fill="currentColor" fill-opacity="0.08"/>
+  <rect x="172" y="85" width="362.0" height="20" rx="3" fill="currentColor" fill-opacity="0.7"/>
+  <text x="544" y="100" font-size="14">5 runs</text>
+  <text x="156" y="133" text-anchor="end" font-size="14">mock apply</text>
+  <rect x="172" y="119" width="362" height="20" rx="3" fill="currentColor" fill-opacity="0.08"/>
+  <rect x="172" y="119" width="217.2" height="20" rx="3" fill="currentColor" fill-opacity="0.7"/>
+  <text x="544" y="134" font-size="14">3 runs</text>
+</svg>

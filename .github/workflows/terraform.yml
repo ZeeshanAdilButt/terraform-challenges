@@ -1,0 +1,34 @@
+name: terraform
+
+# TODO (part 2): this is the starter. Write the workflow from the README of part 2. The shape of the finished file:
+#   on: pull_request and push to main, only for changes under capstone/ and this file
+#   permissions: contents: read
+#   job "plan", for each environment (strategy matrix: env [dev, prod]):
+#       steps: checkout, setup-node, setup-terraform (version 1.17.1, wrapper off), then
+#              node capstone/ci/pipeline.mjs check <env>
+#              start the state server:  node toolkit/state-server.mjs --port 8850 --dir "$RUNNER_TEMP/tfstate" &
+#              node capstone/ci/pipeline.mjs plan <env>
+#              upload the saved plan (capstone/envs/<env>/<env>.tfplan and .plan.json) as an artifact
+#   job "apply", needs plan, only if github.event_name == 'push' and the ref is main:
+#       steps: checkout, setup-node, setup-terraform, start the state server, download the artifact, then
+#              node capstone/ci/pipeline.mjs apply <env>
+#   both jobs: environment: ${{ matrix.env }}, a concurrency group per environment (terraform-${{ matrix.env }})
+#              with cancel-in-progress: false, and env TFC_STATE_URL, TF_HTTP_USERNAME, TF_HTTP_PASSWORD (from secrets.STATE_TOKEN)
+#   every "uses:" pinned to a full 40-character commit SHA, with the tag in a comment after it.
+#
+# The three actions below are only here to show the shape. They name a tag. A tag can be moved to other code at any
+# time. Replace each tag with the commit SHA it points to:  gh api repos/actions/checkout/commits/v7.0.1 -q .sha
+on:
+  pull_request:
+
+permissions:
+  contents: read
+
+jobs:
+  plan:
+    runs-on: ubuntu-24.04
+    steps:
+      - uses: actions/checkout@v7
+      - uses: actions/setup-node@v7
+      - uses: hashicorp/setup-terraform@v4
+      - run: echo "TODO (part 2): run the pipeline steps"

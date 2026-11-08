@@ -1,0 +1,6 @@
+{
+  "note": "The five names are alpha, bravo, charlie, delta, echo and all five files exist. For each change to the list, write the three numbers you expect on the Plan line. Decide BEFORE you run run.mjs. Filenames are item-<index>.txt and content is 'hello <name>'.",
+  "remove_first": { "add": null, "change": null, "destroy": null },
+  "remove_middle": { "add": null, "change": null, "destroy": null },
+  "remove_last": { "add": null, "change": null, "destroy": null }
+}

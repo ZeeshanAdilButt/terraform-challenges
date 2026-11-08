@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 166" width="640" height="166" role="img" aria-labelledby="t d" font-family="system-ui, sans-serif" fill="currentColor">
+  <title id="t">Objects the plan wants to add, at each moment of the three failures</title>
+  <desc id="d">failed apply: web is tainted: 1 to add. state lost: 6 to add. state restored: 0 to add</desc>
+  <text x="0" y="24" font-size="17" font-weight="600">Objects the plan wants to add, at each moment of the three failures</text>
+  <text x="236" y="65" text-anchor="end" font-size="14">failed apply: web is tainted</text>
+  <rect x="252" y="51" width="282" height="20" rx="3" fill="currentColor" fill-opacity="0.08"/>
+  <rect x="252" y="51" width="47.0" height="20" rx="3" fill="currentColor" fill-opacity="0.7"/>
+  <text x="544" y="66" font-size="14">1 to add</text>
+  <text x="236" y="99" text-anchor="end" font-size="14">state lost</text>
+  <rect x="252" y="85" width="282" height="20" rx="3" fill="currentColor" fill-opacity="0.08"/>
+  <rect x="252" y="85" width="282.0" height="20" rx="3" fill="currentColor" fill-opacity="0.7"/>
+  <text x="544" y="100" font-size="14">6 to add</text>
+  <text x="236" y="133" text-anchor="end" font-size="14">state restored</text>
+  <rect x="252" y="119" width="282" height="20" rx="3" fill="currentColor" fill-opacity="0.08"/>
+  <rect x="252" y="119" width="0.0" height="20" rx="3" fill="currentColor" fill-opacity="0.7"/>
+  <text x="544" y="134" font-size="14">0 to add</text>
+</svg>

@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 132" width="640" height="132" role="img" aria-labelledby="t d" font-family="system-ui, sans-serif" fill="currentColor">
+  <title id="t">Resources each prod pull request would destroy, and whether the pipeline let it through</title>
+  <desc id="d">memory 128 to 96 (passes): 0 destroyed. new cache image (blocked): 2 destroyed</desc>
+  <text x="0" y="24" font-size="17" font-weight="600">Resources each prod pull request would destroy, and whether the pipeline let it through</text>
+  <text x="212" y="65" text-anchor="end" font-size="14">memory 128 to 96 (passes)</text>
+  <rect x="228" y="51" width="306" height="20" rx="3" fill="currentColor" fill-opacity="0.08"/>
+  <rect x="228" y="51" width="0.0" height="20" rx="3" fill="currentColor" fill-opacity="0.7"/>
+  <text x="544" y="66" font-size="14">0 destroyed</text>
+  <text x="212" y="99" text-anchor="end" font-size="14">new cache image (blocked)</text>
+  <rect x="228" y="85" width="306" height="20" rx="3" fill="currentColor" fill-opacity="0.08"/>
+  <rect x="228" y="85" width="306.0" height="20" rx="3" fill="currentColor" fill-opacity="0.7"/>
+  <text x="544" y="100" font-size="14">2 destroyed</text>
+</svg>

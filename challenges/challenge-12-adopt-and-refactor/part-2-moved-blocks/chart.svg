@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 132" width="640" height="132" role="img" aria-labelledby="t d" font-family="system-ui, sans-serif" fill="currentColor">
+  <title id="t">Objects the plan would destroy after the refactor</title>
+  <desc id="d">no moved blocks: 3 destroyed. with moved blocks: 0 destroyed</desc>
+  <text x="0" y="24" font-size="17" font-weight="600">Objects the plan would destroy after the refactor</text>
+  <text x="148" y="65" text-anchor="end" font-size="14">no moved blocks</text>
+  <rect x="164" y="51" width="370" height="20" rx="3" fill="currentColor" fill-opacity="0.08"/>
+  <rect x="164" y="51" width="370.0" height="20" rx="3" fill="currentColor" fill-opacity="0.7"/>
+  <text x="544" y="66" font-size="14">3 destroyed</text>
+  <text x="148" y="99" text-anchor="end" font-size="14">with moved blocks</text>
+  <rect x="164" y="85" width="370" height="20" rx="3" fill="currentColor" fill-opacity="0.08"/>
+  <rect x="164" y="85" width="0.0" height="20" rx="3" fill="currentColor" fill-opacity="0.7"/>
+  <text x="544" y="100" font-size="14">0 destroyed</text>
+</svg>

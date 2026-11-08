@@ -1,0 +1,48 @@
+name: terraform plan
+
+# Fault to fix: the three "uses:" lines name a tag. A tag can be moved to other code at any time.
+
+# Runs on every pull request that touches the Terraform code or the pipeline scripts.
+# It only plans. It never applies, and it has no write access to the repository contents.
+on:
+  pull_request:
+    paths:
+      - "infra/**"
+      - "ci/**"
+
+permissions:
+  contents: read
+  pull-requests: write
+
+# A new push to the same pull request cancels the plan that is still running for the old one.
+concurrency:
+  group: terraform-plan-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  plan:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v7
+        with:
+          persist-credentials: false
+
+      - uses: actions/setup-node@v7
+        with:
+          node-version: "22"
+
+      - uses: hashicorp/setup-terraform@v4
+        with:
+          terraform_version: "1.17.1"
+          terraform_wrapper: false
+
+      - name: Plan
+        run: node ci/plan.mjs infra
+
+      # Post the summary even when the plan step failed, so the author sees why.
+      - name: Comment on the pull request
+        if: always()
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: gh pr comment "${{ github.event.pull_request.number }}" --body-file infra/plan.md

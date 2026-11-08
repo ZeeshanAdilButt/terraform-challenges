@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 234" width="640" height="234" role="img" aria-labelledby="t d" font-family="system-ui, sans-serif" fill="currentColor">
+  <title id="t">Resources destroyed by one edit to a count list of five</title>
+  <desc id="d">remove the first: 5 destroyed. remove the middle: 3 destroyed. remove the last: 1 destroyed. reverse the order: 4 destroyed. insert at the front: 5 destroyed</desc>
+  <text x="0" y="24" font-size="17" font-weight="600">Resources destroyed by one edit to a count list of five</text>
+  <text x="164" y="65" text-anchor="end" font-size="14">remove the first</text>
+  <rect x="180" y="51" width="354" height="20" rx="3" fill="currentColor" fill-opacity="0.08"/>
+  <rect x="180" y="51" width="354.0" height="20" rx="3" fill="currentColor" fill-opacity="0.7"/>
+  <text x="544" y="66" font-size="14">5 destroyed</text>
+  <text x="164" y="99" text-anchor="end" font-size="14">remove the middle</text>
+  <rect x="180" y="85" width="354" height="20" rx="3" fill="currentColor" fill-opacity="0.08"/>
+  <rect x="180" y="85" width="212.4" height="20" rx="3" fill="currentColor" fill-opacity="0.7"/>
+  <text x="544" y="100" font-size="14">3 destroyed</text>
+  <text x="164" y="133" text-anchor="end" font-size="14">remove the last</text>
+  <rect x="180" y="119" width="354" height="20" rx="3" fill="currentColor" fill-opacity="0.08"/>
+  <rect x="180" y="119" width="70.8" height="20" rx="3" fill="currentColor" fill-opacity="0.7"/>
+  <text x="544" y="134" font-size="14">1 destroyed</text>
+  <text x="164" y="167" text-anchor="end" font-size="14">reverse the order</text>
+  <rect x="180" y="153" width="354" height="20" rx="3" fill="currentColor" fill-opacity="0.08"/>
+  <rect x="180" y="153" width="283.2" height="20" rx="3" fill="currentColor" fill-opacity="0.7"/>
+  <text x="544" y="168" font-size="14">4 destroyed</text>
+  <text x="164" y="201" text-anchor="end" font-size="14">insert at the front</text>
+  <rect x="180" y="187" width="354" height="20" rx="3" fill="currentColor" fill-opacity="0.08"/>
+  <rect x="180" y="187" width="354.0" height="20" rx="3" fill="currentColor" fill-opacity="0.7"/>
+  <text x="544" y="202" font-size="14">5 destroyed</text>
+</svg>

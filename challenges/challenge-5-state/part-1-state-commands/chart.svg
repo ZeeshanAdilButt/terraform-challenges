@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 132" width="640" height="132" role="img" aria-labelledby="t d" font-family="system-ui, sans-serif" fill="currentColor">
+  <title id="t">Resources the plan wants to destroy, before and after your state commands</title>
+  <desc id="d">before the commands: 2 to destroy. after the commands: 0 to destroy</desc>
+  <text x="0" y="24" font-size="17" font-weight="600">Resources the plan wants to destroy, before and after your state commands</text>
+  <text x="164" y="65" text-anchor="end" font-size="14">before the commands</text>
+  <rect x="180" y="51" width="354" height="20" rx="3" fill="currentColor" fill-opacity="0.08"/>
+  <rect x="180" y="51" width="354.0" height="20" rx="3" fill="currentColor" fill-opacity="0.7"/>
+  <text x="544" y="66" font-size="14">2 to destroy</text>
+  <text x="164" y="99" text-anchor="end" font-size="14">after the commands</text>
+  <rect x="180" y="85" width="354" height="20" rx="3" fill="currentColor" fill-opacity="0.08"/>
+  <rect x="180" y="85" width="0.0" height="20" rx="3" fill="currentColor" fill-opacity="0.7"/>
+  <text x="544" y="100" font-size="14">0 to destroy</text>
+</svg>

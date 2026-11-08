@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 302" width="640" height="302" role="img" aria-labelledby="t d" font-family="system-ui, sans-serif" fill="currentColor">
+  <title id="t">Places where a secret is readable (1 = yes, 0 = no)</title>
+  <desc id="d">plan text: 0. plan as JSON: 1. plan file (unzipped): 1. state file: 1. terraform show: 1. terraform output: 0. terraform output -json: 1</desc>
+  <text x="0" y="24" font-size="17" font-weight="600">Places where a secret is readable (1 = yes, 0 = no)</text>
+  <text x="188" y="65" text-anchor="end" font-size="14">plan text</text>
+  <rect x="204" y="51" width="330" height="20" rx="3" fill="currentColor" fill-opacity="0.08"/>
+  <rect x="204" y="51" width="0.0" height="20" rx="3" fill="currentColor" fill-opacity="0.7"/>
+  <text x="544" y="66" font-size="14">0</text>
+  <text x="188" y="99" text-anchor="end" font-size="14">plan as JSON</text>
+  <rect x="204" y="85" width="330" height="20" rx="3" fill="currentColor" fill-opacity="0.08"/>
+  <rect x="204" y="85" width="330.0" height="20" rx="3" fill="currentColor" fill-opacity="0.7"/>
+  <text x="544" y="100" font-size="14">1</text>
+  <text x="188" y="133" text-anchor="end" font-size="14">plan file (unzipped)</text>
+  <rect x="204" y="119" width="330" height="20" rx="3" fill="currentColor" fill-opacity="0.08"/>
+  <rect x="204" y="119" width="330.0" height="20" rx="3" fill="currentColor" fill-opacity="0.7"/>
+  <text x="544" y="134" font-size="14">1</text>
+  <text x="188" y="167" text-anchor="end" font-size="14">state file</text>
+  <rect x="204" y="153" width="330" height="20" rx="3" fill="currentColor" fill-opacity="0.08"/>
+  <rect x="204" y="153" width="330.0" height="20" rx="3" fill="currentColor" fill-opacity="0.7"/>
+  <text x="544" y="168" font-size="14">1</text>
+  <text x="188" y="201" text-anchor="end" font-size="14">terraform show</text>
+  <rect x="204" y="187" width="330" height="20" rx="3" fill="currentColor" fill-opacity="0.08"/>
+  <rect x="204" y="187" width="330.0" height="20" rx="3" fill="currentColor" fill-opacity="0.7"/>
+  <text x="544" y="202" font-size="14">1</text>
+  <text x="188" y="235" text-anchor="end" font-size="14">terraform output</text>
+  <rect x="204" y="221" width="330" height="20" rx="3" fill="currentColor" fill-opacity="0.08"/>
+  <rect x="204" y="221" width="0.0" height="20" rx="3" fill="currentColor" fill-opacity="0.7"/>
+  <text x="544" y="236" font-size="14">0</text>
+  <text x="188" y="269" text-anchor="end" font-size="14">terraform output -json</text>
+  <rect x="204" y="255" width="330" height="20" rx="3" fill="currentColor" fill-opacity="0.08"/>
+  <rect x="204" y="255" width="330.0" height="20" rx="3" fill="currentColor" fill-opacity="0.7"/>
+  <text x="544" y="270" font-size="14">1</text>
+</svg>

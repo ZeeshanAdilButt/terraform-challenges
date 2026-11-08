@@ -1,0 +1,4 @@
+# Copies of the state (capstone/backups) can hold secrets. Plans as JSON can too. Never commit them.
+backups/
+*.plan.json
+.state/

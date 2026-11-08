@@ -1,0 +1,11 @@
+{
+  "plan_text_shows_variable_secret": false,
+  "plan_json_shows_variable_secret": false,
+  "plan_json_shows_random_secret": false,
+  "plan_file_shows_variable_secret": false,
+  "state_file_shows_variable_secret": false,
+  "state_file_shows_random_secret": false,
+  "show_state_text_shows_any_secret": false,
+  "output_text_shows_random_secret": false,
+  "output_json_shows_random_secret": false
+}

@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 166" width="640" height="166" role="img" aria-labelledby="t d" font-family="system-ui, sans-serif" fill="currentColor">
+  <title id="t">Resources the plan wants to add, by recovery state</title>
+  <desc id="d">state lost: 2 to add. backup restored: 1 to add. container imported: 1 to add</desc>
+  <text x="0" y="24" font-size="17" font-weight="600">Resources the plan wants to add, by recovery state</text>
+  <text x="156" y="65" text-anchor="end" font-size="14">state lost</text>
+  <rect x="172" y="51" width="362" height="20" rx="3" fill="currentColor" fill-opacity="0.08"/>
+  <rect x="172" y="51" width="362.0" height="20" rx="3" fill="currentColor" fill-opacity="0.7"/>
+  <text x="544" y="66" font-size="14">2 to add</text>
+  <text x="156" y="99" text-anchor="end" font-size="14">backup restored</text>
+  <rect x="172" y="85" width="362" height="20" rx="3" fill="currentColor" fill-opacity="0.08"/>
+  <rect x="172" y="85" width="181.0" height="20" rx="3" fill="currentColor" fill-opacity="0.7"/>
+  <text x="544" y="100" font-size="14">1 to add</text>
+  <text x="156" y="133" text-anchor="end" font-size="14">container imported</text>
+  <rect x="172" y="119" width="362" height="20" rx="3" fill="currentColor" fill-opacity="0.08"/>
+  <rect x="172" y="119" width="181.0" height="20" rx="3" fill="currentColor" fill-opacity="0.7"/>
+  <text x="544" y="134" font-size="14">1 to add</text>
+</svg>

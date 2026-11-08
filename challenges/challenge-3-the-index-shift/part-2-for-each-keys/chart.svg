@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 336" width="640" height="336" role="img" aria-labelledby="t d" font-family="system-ui, sans-serif" fill="currentColor">
+  <title id="t">Resources destroyed by one edit: count versus for_each</title>
+  <desc id="d">count: remove the first: 5 destroyed. for_each: remove the first: 1 destroyed. count: remove the middle: 3 destroyed. for_each: remove the middle: 1 destroyed. count: remove the last: 1 destroyed. for_each: remove the last: 1 destroyed. count: reverse the order: 4 destroyed. for_each: reverse the order: 0 destroyed</desc>
+  <text x="0" y="24" font-size="17" font-weight="600">Resources destroyed by one edit: count versus for_each</text>
+  <text x="228" y="65" text-anchor="end" font-size="14">count: remove the first</text>
+  <rect x="244" y="51" width="290" height="20" rx="3" fill="currentColor" fill-opacity="0.08"/>
+  <rect x="244" y="51" width="290.0" height="20" rx="3" fill="currentColor" fill-opacity="0.7"/>
+  <text x="544" y="66" font-size="14">5 destroyed</text>
+  <text x="228" y="99" text-anchor="end" font-size="14">for_each: remove the first</text>
+  <rect x="244" y="85" width="290" height="20" rx="3" fill="currentColor" fill-opacity="0.08"/>
+  <rect x="244" y="85" width="58.0" height="20" rx="3" fill="currentColor" fill-opacity="0.7"/>
+  <text x="544" y="100" font-size="14">1 destroyed</text>
+  <text x="228" y="133" text-anchor="end" font-size="14">count: remove the middle</text>
+  <rect x="244" y="119" width="290" height="20" rx="3" fill="currentColor" fill-opacity="0.08"/>
+  <rect x="244" y="119" width="174.0" height="20" rx="3" fill="currentColor" fill-opacity="0.7"/>
+  <text x="544" y="134" font-size="14">3 destroyed</text>
+  <text x="228" y="167" text-anchor="end" font-size="14">for_each: remove the middle</text>
+  <rect x="244" y="153" width="290" height="20" rx="3" fill="currentColor" fill-opacity="0.08"/>
+  <rect x="244" y="153" width="58.0" height="20" rx="3" fill="currentColor" fill-opacity="0.7"/>
+  <text x="544" y="168" font-size="14">1 destroyed</text>
+  <text x="228" y="201" text-anchor="end" font-size="14">count: remove the last</text>
+  <rect x="244" y="187" width="290" height="20" rx="3" fill="currentColor" fill-opacity="0.08"/>
+  <rect x="244" y="187" width="58.0" height="20" rx="3" fill="currentColor" fill-opacity="0.7"/>
+  <text x="544" y="202" font-size="14">1 destroyed</text>
+  <text x="228" y="235" text-anchor="end" font-size="14">for_each: remove the last</text>
+  <rect x="244" y="221" width="290" height="20" rx="3" fill="currentColor" fill-opacity="0.08"/>
+  <rect x="244" y="221" width="58.0" height="20" rx="3" fill="currentColor" fill-opacity="0.7"/>
+  <text x="544" y="236" font-size="14">1 destroyed</text>
+  <text x="228" y="269" text-anchor="end" font-size="14">count: reverse the order</text>
+  <rect x="244" y="255" width="290" height="20" rx="3" fill="currentColor" fill-opacity="0.08"/>
+  <rect x="244" y="255" width="232.0" height="20" rx="3" fill="currentColor" fill-opacity="0.7"/>
+  <text x="544" y="270" font-size="14">4 destroyed</text>
+  <text x="228" y="303" text-anchor="end" font-size="14">for_each: reverse the order</text>
+  <rect x="244" y="289" width="290" height="20" rx="3" fill="currentColor" fill-opacity="0.08"/>
+  <rect x="244" y="289" width="0.0" height="20" rx="3" fill="currentColor" fill-opacity="0.7"/>
+  <text x="544" y="304" font-size="14">0 destroyed</text>
+</svg>

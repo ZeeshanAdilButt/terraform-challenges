@@ -1,0 +1,83 @@
+[
+  {
+    "address": "docker_container.web",
+    "type": "docker_container",
+    "actions": [
+      "delete",
+      "create"
+    ],
+    "action_reason": "replace_because_cannot_update",
+    "replace_paths": [
+      [
+        "image"
+      ],
+      [
+        "command"
+      ]
+    ]
+  },
+  {
+    "address": "docker_container.worker",
+    "type": "docker_container",
+    "actions": [
+      "update"
+    ],
+    "action_reason": null,
+    "replace_paths": []
+  },
+  {
+    "address": "local_file.motd",
+    "type": "local_file",
+    "actions": [
+      "delete",
+      "create"
+    ],
+    "action_reason": "replace_because_cannot_update",
+    "replace_paths": [
+      [
+        "content"
+      ]
+    ]
+  },
+  {
+    "address": "terraform_data.cbd",
+    "type": "terraform_data",
+    "actions": [
+      "create",
+      "delete"
+    ],
+    "action_reason": "replace_because_cannot_update",
+    "replace_paths": [
+      [
+        "triggers_replace"
+      ]
+    ]
+  },
+  {
+    "address": "terraform_data.newcomer",
+    "type": "terraform_data",
+    "actions": [
+      "create"
+    ],
+    "action_reason": null,
+    "replace_paths": []
+  },
+  {
+    "address": "terraform_data.old",
+    "type": "terraform_data",
+    "actions": [
+      "delete"
+    ],
+    "action_reason": "delete_because_no_resource_config",
+    "replace_paths": []
+  },
+  {
+    "address": "terraform_data.same",
+    "type": "terraform_data",
+    "actions": [
+      "no-op"
+    ],
+    "action_reason": null,
+    "replace_paths": []
+  }
+]

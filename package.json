@@ -1,0 +1,12 @@
+{
+  "name": "terraform-challenges",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Challenges for the course Terraform in Practice. No dependencies.",
+  "type": "module",
+  "engines": { "node": ">=22" },
+  "scripts": {
+    "check": "node toolkit/check-setup.mjs",
+    "test": "node --test --test-concurrency=1 \"toolkit/test.mjs\" \"challenges/**/test.mjs\""
+  }
+}

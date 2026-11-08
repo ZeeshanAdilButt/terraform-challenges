@@ -1,0 +1,7 @@
+# The team's .gitignore, copied here so you can read it.
+# FIX 2: one line below keeps the wrong file out of Git. Remove it.
+.terraform/
+*.tfstate
+*.tfstate.*
+.terraform.lock.hcl
+crash.log
